@@ -1,0 +1,158 @@
+.h1 {
+    font-size: medium;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 595px;
+    height: 840px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.main-column {
+    display: flex;
+    height: 840px;
+    flex-direction: row;
+}
+
+#first-column {
+    width: 210px;
+    background-color: #233A5F;
+}
+
+#second-column {
+    width: 385px;
+}
+
+.first-column-content {
+    width: 186px;
+    margin: 30px 12px 160px;
+    height: 690px;
+    font-size: 10px;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.first-column-info {
+    margin-bottom: 20px;
+    color: white;
+}
+
+#title {
+    height: 42px;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 3px 0px;
+}
+
+#title>p {
+    margin-top: 0px;
+}
+
+#personal-info>div {
+    background-color: white;
+    color: #233A5F;
+    border-radius: 8px;
+    height: 23px;
+}
+
+#personal-info>div>p {
+    margin: 0px;
+    padding: 5px;
+}
+
+#personal-info {
+    display: flex;
+    flex-direction: column;
+    height: 116px;
+    justify-content: space-between;
+}
+
+.first-column-info>ul {
+    margin: 0px;
+    margin-left: -15px;
+}
+
+#info-header {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#links>p>img {
+    width: 15px;
+    height: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#links>p>a {
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.second-column-content {
+    width: 320px;
+    margin: 32px 32px 0px 32px;
+    height: 720px;
+    font-size: 10px;
+}
+
+.second-column-info {
+    margin-bottom: 20px;
+}
+
+.second-column-info>h3 {
+    color: #233A5F;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.second-column-info>hr {
+    width: 40px;
+    background-color: #233A5F;
+    height: 2px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.second-column-info>p {
+    margin-top: 20px;
+    font-family: Poppins;
+    color: #878787;
+}
+
+#text {
+    font-family: Poppins;
+    color: #878787;
+}
+
+#text>h4 {
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+}
+
+#text>h6 {
+    font-size: 8px;
+    margin: 0px;
+    margin-top: -15px;
+    color: black;
+}
+
+#education>ul>li {
+    margin: 0px;
+}
